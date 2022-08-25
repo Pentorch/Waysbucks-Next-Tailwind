@@ -4,7 +4,7 @@ import { Jumbotron } from "../../../assets";
 const Banner = () => {
   return (
     <div className="flex justify-center">
-      <div className="xl:w-[958px] md:w-[650px] lg:w-[750px] h-auto bg-[#BD0707] sm:w-[550px]  rounded-[10px] text-white absolute top-[180px] ">
+      <div className="xl:w-[958px] md:w-[650px] lg:w-[750px] h-auto bg-color1 sm:w-[550px]  rounded-[10px] text-white absolute top-[180px] ">
         <div className="p-[57px]">
           <h1 className="text-[60px] font-black mb-4">WAYSBUCKS</h1>
           <p className="mb-7 text-2xl font-light">
