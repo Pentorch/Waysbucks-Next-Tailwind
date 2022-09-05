@@ -4,15 +4,15 @@ import { Jumbotron, slice1, slice2, slice3, slice4 } from "../../../assets";
 const Banner = () => {
   return (
     <div className="flex justify-center">
-      <div className="xl:w-[958px] md:w-[650px] lg:w-[750px] h-auto bg-color1 sm:w-[550px]  rounded-[10px] text-white absolute top-[180px] ">
+      <div className="xl:w-[958px] md:w-[650px] lg:w-[750px] h-auto bg-color1 sm:w-[550px] mx-[10px] rounded-[10px] text-white absolute top-[180px]">
         <div className="p-[57px]">
-          <div className="absolute md:top-0 md:left-0 md:max-w-[100%] sm:top-0 sm:left-0 sm:max-w-[80px]">
+          <div className="absolute md:top-0 md:left-0 md:max-w-[100%] sm:top-0 sm:left-0 sm:max-w-[80px] left-0 top-0 max-w-[70px]">
             <Image src={slice4} alt="slice4" />
           </div>
-          <div className="absolute sm:top-0 md:right-[170px] sm:right-[-10px] sm:max-w-[120px] md:max-w-[100%]">
+          <div className="absolute sm:top-0 md:right-[170px] sm:right-[-10px] sm:max-w-[120px] md:max-w-[100%] right-0 top-0 max-w-[100px]">
             <Image src={slice3} alt="slice3" />
           </div>
-          <p className="text-[60px] font-black mb-4">WAYSBUCKS</p>
+          <p className="text-[60px] font-black mb-4 mt-8">WAYSBUCKS</p>
           <p className="mb-7 text-2xl font-light">
             Things are changing, but we’re still here for you
           </p>
@@ -24,19 +24,19 @@ const Banner = () => {
             </p>
             <br />
             <p>Let’s Order...</p>
-            <div className="absolute md:max-w-[100%] md:bottom-[-8px] md:right-0 sm:bottom-[-8px] sm:right-0 sm:max-w-[130px]">
+            <div className="absolute md:max-w-[100%] md:bottom-[-8px] md:right-0 sm:bottom-[-8px] sm:right-0 sm:max-w-[130px] right-0 bottom-[-7px] max-w-[100px]">
               <Image src={slice2} alt="slice2" />
             </div>
-            <div className="absolute  md:left-[625px] sm:left-[175px] sm:top-[-100px] md:w-[451px] md:h-[324px] md:top-[50px] sm:w-[35%] sm:h-[180px] ">
+            <div className="absolute  md:left-[625px] sm:left-[175px] sm:top-[-100px] md:w-[451px] md:h-[324px] md:top-[50px] sm:w-[35%] sm:h-[180px] w-[35%] h-[175px] top-[-90px]  left-[180px] ">
               <Image
-                className="md:rounded-none sm:rounded-[100%]"
+                className="md:rounded-none rounded-full"
                 src={Jumbotron}
                 alt="Jumbotron"
                 objectFit="cover"
                 layout="fill"
               />
             </div>
-            <div className="absolute md:max-w-[100%] md:bottom-[-8px] md:left-[450px] sm:bottom-[-10px] sm:left-[220px] sm:max-w-[80px]">
+            <div className="absolute md:max-w-[100%] md:bottom-[-8px] md:left-[450px] sm:bottom-[-10px] sm:left-[220px] sm:max-w-[80px] left-[200px] bottom-[-10px] max-w-[50px]">
               <Image src={slice1} alt="slice1" />
             </div>
           </div>
