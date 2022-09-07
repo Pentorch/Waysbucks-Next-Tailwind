@@ -1,5 +1,5 @@
-import Navbar from "src/components/molecules/Navbar";
-import Banner from "../components/organisms/Banner";
+import Navbar from 'src/components/organisms/Navbar';
+import Banner from '../components/organisms/Banner';
 
 export default function Home() {
   return (
