@@ -1,6 +1,6 @@
 import { Fragment, useEffect } from 'react';
 
-const Modal = ({ size, children, visible, className }) => {
+const Modal = ({ size, children, visible, className, setOpenModal }) => {
   useEffect(() => {
     if (visible) {
       document.body.style.overflow = 'hidden';
@@ -13,7 +13,8 @@ const Modal = ({ size, children, visible, className }) => {
     <Fragment>
       {visible && (
         <div
-          className={`fixed w-full h-full top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-black bg-opacity-80 z-[60]`}
+          onClick={() => setOpenModal(false)}
+          className={`fixed  w-full h-full top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-black bg-opacity-80 z-[60]`}
         >
           <div
             className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-xl ${

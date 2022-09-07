@@ -2,9 +2,11 @@ import Images from 'next/image';
 import { useState } from 'react';
 import { WaysBucks } from 'src/assets';
 import Button from 'src/components/atoms/Button';
+import Modal from 'src/components/atoms/Modal';
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <nav className="w-full shadow">
@@ -100,10 +102,15 @@ export default function Navbar() {
             <Button
               href="javascript:void(0)"
               className="hidden space-x-2 md:inline-block text-white bg-color1 rounded-md shadow border-2 border-color1 hover:bg-white hover:text-color1"
+              onClick={setShowModal}
             >
               Sign up
             </Button>
           </div>
+
+          <Modal visible={showModal} setOpenModal={setShowModal}>
+            asdasdasd
+          </Modal>
         </div>
       </div>
     </nav>
