@@ -1,7 +1,7 @@
-import Images from "next/image";
-import { useState } from "react";
-import { WaysBucks } from "src/assets";
-import Button from "src/components/atoms/Button";
+import Images from 'next/image';
+import { useState } from 'react';
+import { WaysBucks } from 'src/assets';
+import Button from 'src/components/atoms/Button';
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -55,7 +55,7 @@ export default function Navbar() {
         <div>
           <div
             className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-              navbar ? "block" : "hidden"
+              navbar ? 'block' : 'hidden'
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
@@ -76,7 +76,7 @@ export default function Navbar() {
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <Button
                 href="javascript:void(0)"
-                className="inline-block w-full text-color1 border-2 font-bold border-color1 rounded-md shadow hover:bg-color1 hover:text-white font-bold"
+                className="inline-block w-full text-color1 border-2 font-bold border-color1 rounded-md shadow hover:bg-color1 hover:text-white"
               >
                 Sign in
               </Button>
