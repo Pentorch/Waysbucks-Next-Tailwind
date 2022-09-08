@@ -1,12 +1,13 @@
-import Navbar from 'src/components/organisms/Navbar';
+import Layout from '../components/organisms/Layout';
 import Banner from '../components/organisms/Banner';
 
 export default function Home() {
   return (
     <div>
       <div>
-        <Navbar />
-        <Banner />
+        <Layout>
+          <Banner />
+        </Layout>
       </div>
     </div>
   );

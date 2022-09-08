@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/pages/**/*.{js,ts,jsx,tsx}', './src/components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      transitionProperty: {
+        height: 'height',
+      },
       colors: {
         color1: '#BD0707',
         color2: '#FFFEFE',
@@ -13,5 +16,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/line-clamp')],
 };

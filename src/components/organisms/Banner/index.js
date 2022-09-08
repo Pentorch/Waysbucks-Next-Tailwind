@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { Jumbotron, slice1, slice2, slice3, slice4 } from "../../../assets";
+import Image from 'next/image';
+import { Jumbotron, slice1, slice2, slice3, slice4 } from '../../../assets';
 
 const Banner = () => {
   return (
@@ -12,9 +12,7 @@ const Banner = () => {
           <div className="absolute sm:top-0 md:right-[310px] sm:right-[-10px] sm:max-w-[120px] md:max-w-[100%] right-5 top-0 max-w-[100px]">
             <Image src={slice3} alt="slice3" />
           </div>
-          <p className="text-[40px] font-black mb-4 mt-8 md:mt-0 md:text-[60px]">
-            WAYSBUCKS
-          </p>
+          <p className="text-[40px] font-black mb-4 mt-8 md:mt-0 md:text-[60px]">WAYSBUCKS</p>
           <p className="mb-7 md:text-2xl font-light text-xl">
             Things are changing, but we’re still here for you
           </p>
