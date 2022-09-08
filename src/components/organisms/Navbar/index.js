@@ -86,6 +86,7 @@ export default function Navbar() {
               <Button
                 href="javascript:void(0)"
                 className="inline-block w-full text-white bg-color1 rounded-md shadow border-2 border-color1 hover:bg-white hover:text-color1 font-bold"
+                onClick={setShowModal}
               >
                 Sign up
               </Button>
