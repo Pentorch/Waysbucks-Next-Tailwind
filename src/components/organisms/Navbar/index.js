@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { WaysBucks } from 'src/assets';
 import Button from 'src/components/atoms/Button';
 import Modal from 'src/components/atoms/Modal';
+import PopupSignUp from 'src/components/molecules/PopupSignUp';
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -108,8 +109,8 @@ export default function Navbar() {
             </Button>
           </div>
 
-          <Modal visible={showModal} setOpenModal={setShowModal}>
-            asdasdasd
+          <Modal visible={showModal}>
+            <PopupSignUp />
           </Modal>
         </div>
       </div>

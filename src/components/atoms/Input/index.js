@@ -22,7 +22,8 @@ const Input = ({
   };
 
   // tailwind styling
-  const dafaultStyling = 'w-full outline-none text-gray-700 bg-white border rounded focus:border';
+  const dafaultStyling =
+    'w-full outline-none text-gray-700 bg-white border rounded focus:border-color1';
 
   return (
     <div className={containerClassName}>
@@ -38,7 +39,7 @@ const Input = ({
           type={type}
           className={`${inputClassName} ${dafaultStyling} ${sizeClassName[size]} ${
             icon ? 'pl-11' : 'pl-4'
-          } ${touched && error && '!border-redImperial'} focus:${focus || 'border-green-700'}`}
+          } ${touched && error && '!border-color1'} focus:${focus || 'border-color1'}`}
           {...register}
           {...props}
         />
