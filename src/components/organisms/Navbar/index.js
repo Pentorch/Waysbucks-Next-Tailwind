@@ -109,8 +109,8 @@ export default function Navbar() {
             </Button>
           </div>
 
-          <Modal visible={showModal} className="w-[416px] h-[391px]">
-            <PopupSignUp />
+          <Modal visible={showModal} className="w-[416px] h-[391px] ">
+            <PopupSignUp setShow={setShowModal} />
           </Modal>
         </div>
       </div>
