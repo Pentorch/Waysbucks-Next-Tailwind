@@ -23,7 +23,7 @@ const Input = ({
 
   // tailwind styling
   const dafaultStyling =
-    'w-full outline-none text-gray-700 bg-white border rounded focus:border-color1';
+    'w-full outline-color1 text-gray-700 bg-color7 border-2 border-color1 rounded-lg focus:border-color1';
 
   return (
     <div className={containerClassName}>
