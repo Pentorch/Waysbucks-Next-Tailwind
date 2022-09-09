@@ -97,13 +97,14 @@ export default function Navbar() {
           <div className=" ">
             <Button
               href="javascript:void(0)"
+              variant="bg-#fff"
               className="hidden space-x-2 mr-2 md:inline-block text-color1 border-2 font-bold border-color1 rounded-md shadow hover:bg-color1 hover:text-white"
             >
               Sign in
             </Button>
             <Button
               href="javascript:void(0)"
-              className="hidden space-x-2 md:inline-block text-white bg-color1 rounded-md shadow border-2 border-color1 hover:bg-white hover:text-color1"
+              className="hidden space-x-2 md:inline-block text-white rounded-md shadow border-2 border-color1 hover:bg-white hover:text-color1 font-bold"
               onClick={setShowModal}
             >
               Sign up

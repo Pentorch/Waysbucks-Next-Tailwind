@@ -65,7 +65,7 @@ Button.defaultProps = {
   inverted: false,
   disabled: false,
   block: false,
-  variant: 'color1',
+  variant: 'bg-color1',
   size: 'medium',
   icon: null,
   iconType: 'left',
