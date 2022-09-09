@@ -16,7 +16,9 @@ export default function PopupSignUp({ setShow }) {
           <Input placeholder="Email" touched={true} inputClassName="mb-5 w-[350px]" />
           <Input placeholder="Password" touched={true} inputClassName="mb-[30px] w-[350px]" />
 
-          <Button className=" rounded mt-4 w-[350px]">Sign Up</Button>
+          <Button className=" rounded text-white border-2 border-color1 hover:bg-white hover:text-color1  font-bold mt-4 w-[350px]">
+            Sign Up
+          </Button>
           <p className="text-lg font-normal text-center mt-5">
             Don`t have an account ?<span className="font-bold">Klik Here</span>
           </p>
