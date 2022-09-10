@@ -4,7 +4,7 @@ import { Jumbotron, slice1, slice2, slice3, slice4 } from '../../../assets';
 const Banner = () => {
   return (
     <div className="container px-6 absolute mt-[120px] md:left-0 left-0 right-0  flex justify-center ">
-      <div className="xl:w-[958px] md:w-[650px]  lg:w-[750px] h-auto bg-color1 sm:w-[550px]  rounded-[10px] text-white top-[180px]">
+      <div className="xl:w-[958px]  md:w-[650px]  lg:w-[750px] h-auto bg-color1 sm:w-[550px]  rounded-[10px] text-white top-[180px]">
         <div className="p-[57px]">
           <div className="absolute md:top-0 md:left-[161px] md:max-w-[100%] sm:top-0 sm:left-0 sm:max-w-[80px] left-5 top-0 max-w-[60px]">
             <Image src={slice4} alt="slice4" />

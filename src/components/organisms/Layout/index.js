@@ -11,7 +11,7 @@ const Layout = ({ children, className, footer, header, showNavbarShadow, ...prop
         <link rel="shortcut icon" href="/favicons.ico" />
       </Head>
       {header ? <Navbar /> : <Fragment />}
-      <div className={`relative min-h-[100vh] bg-white ${className}`} {...props}>
+      <div className={`relative  min-h-[100vh] bg-white ${className}`} {...props}>
         {children}
       </div>
 

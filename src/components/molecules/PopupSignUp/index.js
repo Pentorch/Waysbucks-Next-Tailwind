@@ -14,7 +14,12 @@ export default function PopupSignUp({ setShow }) {
             </button>
           </div>
           <Input placeholder="Email" touched={true} inputClassName="mb-5 w-[350px]" />
-          <Input placeholder="Password" touched={true} inputClassName="mb-[30px] w-[350px]" />
+          <Input
+            type="password"
+            placeholder="Password"
+            touched={true}
+            inputClassName="mb-[30px] w-[350px]"
+          />
 
           <Button className=" rounded text-white border-2 border-color1 hover:bg-white hover:text-color1  font-bold mt-4 w-[350px]">
             Sign Up
