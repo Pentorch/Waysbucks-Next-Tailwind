@@ -79,6 +79,7 @@ export default function Navbar() {
             <div className="mt-3 space-y-2 lg:hidden md:inline-block">
               <Button
                 href="javascript:void(0)"
+                variant="bg-#fff"
                 className="inline-block w-full text-color1 border-2 font-bold border-color1 rounded-md shadow hover:bg-color1 hover:text-white"
               >
                 Sign in
