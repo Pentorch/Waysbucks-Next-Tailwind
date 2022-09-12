@@ -62,16 +62,16 @@ export default function Navbar() {
             }`}
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              <li className="text-black hover:text-indigo-200">
+              <li className="text-black hover:text-color1 font-semibold">
                 <a href="javascript:void(0)">Home</a>
               </li>
-              <li className="text-black hover:text-indigo-200">
+              <li className="text-black hover:text-color1 font-semibold">
                 <a href="javascript:void(0)">Blog</a>
               </li>
-              <li className="text-black hover:text-indigo-200">
+              <li className="text-black hover:text-color1 font-semibold">
                 <a href="javascript:void(0)">About US</a>
               </li>
-              <li className="text-black hover:text-indigo-200">
+              <li className="text-black hover:text-color1 font-semibold">
                 <a href="javascript:void(0)">Contact US</a>
               </li>
             </ul>
